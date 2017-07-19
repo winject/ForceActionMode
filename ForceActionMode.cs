@@ -1,10 +1,6 @@
 using System;
-using System.Drawing;
 using GTA;
-using GTA.Math;
 using GTA.Native;
-using System.Collections.Generic;
-using System.Windows.Forms;
 
 
 namespace ActionMode
