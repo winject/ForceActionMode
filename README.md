@@ -10,7 +10,7 @@ Made [upon request](https://forums.gta5-mods.com/topic/12699/player-movement-hol
 
 :warning:You need [ScriptHook](https://www.gta5-mods.com/tools/script-hook-v) and [ScriptHookDotNet](https://www.gta5-mods.com/tools/scripthookv-net) in order to run this script!
 
-http://i.imgur.com/C4TUcis.jpg
+Preview : http://imgur.com/a/74Xhs
 
 ### Features
 
