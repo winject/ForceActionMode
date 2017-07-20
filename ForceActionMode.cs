@@ -8,11 +8,11 @@ namespace ActionMode
 {
     public class Entry : Script
     {
-		bool TOGGLE = true;		 		//	Should mod be toggled on first start?
-		bool bShowAlert=true;			//	Show on screen short message for script status
-        bool bArmedOnly = true; 		//  Only put in action mode when armed, no fists
-        bool bApplyToGroup = false; 	//	Force your bodyguards to go into action mode
-		Keys myKey = Keys.T;			//	Change 'T' to any key you want, see https://msdn.microsoft.com/en-us/library/system.windows.forms.keys(v=vs.110).aspx
+	bool TOGGLE = true;		 	//	Should mod be toggled on first start?
+	bool bShowAlert=true;			//	Show on screen short message for script status
+        bool bArmedOnly = true; 		// 	Only put in action mode when armed, no fists
+        bool bApplyToGroup = false; 		//	Force your bodyguards to go into action mode
+	Keys myKey = Keys.T;			//	Change 'T' to any key you want, see https://msdn.microsoft.com/en-us/library/system.windows.forms.keys(v=vs.110).aspx
 
         Ped playerPed = null;
 
