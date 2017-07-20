@@ -2,13 +2,15 @@
 
 ### Version
 
-1.0.1
+1.2.0
 
 ### Description
 
 Made [upon request](https://forums.gta5-mods.com/topic/12699/player-movement-hold-pistol-with-two-hands/12). This will force you and your ped group to directly go into 'action mode'.
 
 :warning:You need [ScriptHook](https://www.gta5-mods.com/tools/script-hook-v) and [ScriptHookDotNet](https://www.gta5-mods.com/tools/scripthookv-net) in order to run this script!
+
+http://i.imgur.com/C4TUcis.jpg
 
 ### Features
 
