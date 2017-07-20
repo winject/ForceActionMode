@@ -53,17 +53,16 @@ namespace ActionMode
         {
             if (IsValid(ref ped))
             {
-                if (!IsPedInActionMode(ref ped))
-                {
-                    if(IsPedArmed(ref ped))
-					{
-						if(bArmedOnly) PutPedIntoActionMode(ref ped, true);
-					}
-                }
+                if(bArmedOnly)
+				{
+					if(!IsPedArmed(ref ped) && IsPedInActionMode(ref ped)) PutPedIntoActionMode(ref ped, false);
+					else if(IsPedArmed(ref ped) && !IsPedInActionMode(ref ped)) PutPedIntoActionMode(ref ped, true);
+				}
 				else
 				{
-					if(bArmedOnly) PutPedIntoActionMode(ref ped, false);
+					PutPedIntoActionMode(ref ped, true);
 				}
+				
             }
         }
 
