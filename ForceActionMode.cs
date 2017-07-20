@@ -6,17 +6,17 @@ using System.Windows.Forms;
 
 namespace ActionMode
 {
-    public class Entry : Script
+    public class EntryPoint : Script
     {
-	bool TOGGLE = true;		 	//	Should mod be toggled on first start?
-	bool bShowAlert=true;			//	Show on screen short message for script status
-        bool bArmedOnly = true; 		// 	Only put in action mode when armed, no fists
-        bool bApplyToGroup = false; 		//	Force your bodyguards to go into action mode
-	Keys myKey = Keys.T;			//	Change 'T' to any key you want, see https://msdn.microsoft.com/en-us/library/system.windows.forms.keys(v=vs.110).aspx
+	bool TOGGLE = true;		 	// Should mod be toggled on first start?
+	bool bShowAlert=true;			// Show on screen short message for script status
+        bool bArmedOnly = true; 		// Only put in action mode when armed, no fists
+        bool bApplyToGroup = false; 		// Force your bodyguards to go into action mode
+	Keys myKey = Keys.T;			// Change 'T' to any key you want, see https://msdn.microsoft.com/en-us/library/system.windows.forms.keys(v=vs.110).aspx
 
         Ped playerPed = null;
 
-        public Entry()
+        public EntryPoint()
         {
             playerPed = Game.Player.Character;
             base.Tick += new EventHandler(this.OnTick);
@@ -26,7 +26,6 @@ namespace ActionMode
 
         protected override void Dispose(bool A_0)
         {
-            
             base.Dispose(A_0);
         }
 
